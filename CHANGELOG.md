@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/ALT-F1/covid-19/compare/v1.0.0...v1.1.0) (2020-03-17)
+
+
+### Features
+
+* adapt the breaking changes from the v1.0.0 to the jupyter notebook ([1b82693](https://github.com/ALT-F1/covid-19/commit/1b826935174644c1463b8e201e32d30e240866eb))
+
 ## [1.0.0](https://github.com/ALT-F1/covid-19/compare/v0.0.1...v1.0.0) (2020-03-17)
 
 
