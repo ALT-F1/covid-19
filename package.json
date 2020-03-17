@@ -1,0 +1,22 @@
+{
+    "name": "gcpaccelerator",
+    "description": "ALT-F1 SPRL: Display charts about the geographic distribution of COVID-19 cases worldwide",
+    "authors": "Abdelkrim Boujraf, ALT-F1 SPRL",
+    "version": "0.0.0",
+    "main": "build/html/index.html",
+    "scripts": {
+        "release": "standard-version",
+        "patch": "npm run release -- --release-as patch",
+        "minor": "npm run release -- --release-as minor",
+        "major": "npm run release -- --release-as major",
+        "push": "git push --follow-tags origin master"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ALT-F1/covid-19.git"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "devDependencies": {
+        "standard-version": "^7.0.1"
+    }
+}
