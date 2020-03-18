@@ -4,6 +4,13 @@ Jupyter notebeook built to digest, compile and analyze data related to the covid
 
 The charts are displayed using plotly <https://plot.ly>
 
+Run the jupyter 
+
+* on Google Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ALT-F1/covid-19/blob/master/daily_geographic_distribution_of_covid_19_cases_worldwide.ipynb)
+
+* on Azure Notebooks : <https://notebooks.azure.com/abdelkrim/projects/covid-19>
+
+
 Author : Abdelkrim Boujraf working for <http://www.alt-f1.be>
 
 # how to run the code using python3?
