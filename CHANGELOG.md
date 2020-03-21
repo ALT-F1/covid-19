@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/ALT-F1/covid-19/compare/v1.2.1...v1.2.2) (2020-03-21)
+
+
+### Features
+
+* check files from ECDC with 2 extensions: xls and xlsx ([f1d57b1](https://github.com/ALT-F1/covid-19/commit/f1d57b11403757a15aa48281d5dad76dd386b061))
+* check files from ECDC with 2 extensions: xls and xlsx ([250deaa](https://github.com/ALT-F1/covid-19/commit/250deaa7f2ac67294b9f3a37308209f64a44cbec))
+
 ### [1.2.1](https://github.com/ALT-F1/covid-19/compare/v1.2.0...v1.2.1) (2020-03-18)
 
 ## [1.2.0](https://github.com/ALT-F1/covid-19/compare/v1.1.0...v1.2.0) (2020-03-18)
