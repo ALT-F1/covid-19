@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.3](https://github.com/ALT-F1/covid-19/compare/v1.2.2...v1.2.3) (2020-03-29)
+
+
+### Bug Fixes
+
+* correct the name of the variables due to a change from the ECDC ([097d7f6](https://github.com/ALT-F1/covid-19/commit/097d7f6a7356362939cda9bd6675ca5619d954e1))
+
 ### [1.2.2](https://github.com/ALT-F1/covid-19/compare/v1.2.1...v1.2.2) (2020-03-21)
 
 
