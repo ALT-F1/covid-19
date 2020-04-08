@@ -2,7 +2,7 @@
     "name": "gcpaccelerator",
     "description": "ALT-F1 SPRL: Display charts about the geographic distribution of COVID-19 cases worldwide",
     "authors": "Abdelkrim Boujraf, ALT-F1 SPRL",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "main": "build/html/index.html",
     "scripts": {
         "release": "standard-version",
