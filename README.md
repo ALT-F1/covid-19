@@ -1,6 +1,6 @@
 # covid-19
 
-Jupyter notebeook built to digest, compile and analyze data related to the covid-19
+Jupyter notebook built to digest, compile and analyze data related to the covid-19
 
 The charts are displayed using plotly <https://plot.ly>
 
