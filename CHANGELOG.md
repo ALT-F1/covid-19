@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.5](https://github.com/ALT-F1/covid-19/compare/v1.2.4...v1.2.5) (2020-04-17)
+
+
+### Features
+
+* scatter animation of the continents (but only one continent at a time) ([9a1992a](https://github.com/ALT-F1/covid-19/commit/9a1992adc15986631aa23f2b3371ca4df85c9322))
+
 ### [1.2.4](https://github.com/ALT-F1/covid-19/compare/v1.2.3...v1.2.4) (2020-04-08)
 
 ### [1.2.3](https://github.com/ALT-F1/covid-19/compare/v1.2.2...v1.2.3) (2020-03-29)
