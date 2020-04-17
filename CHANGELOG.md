@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.6](https://github.com/ALT-F1/covid-19/compare/v1.2.5...v1.2.6) (2020-04-17)
+
+
+### Features
+
+* jupyter notebook drawing an animated scatter on COVID data ([32aa373](https://github.com/ALT-F1/covid-19/commit/32aa3737e3504b62cc4c8723d4b36ed12daf8014))
+
 ### [1.2.5](https://github.com/ALT-F1/covid-19/compare/v1.2.4...v1.2.5) (2020-04-17)
 
 
