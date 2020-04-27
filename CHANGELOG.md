@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/ALT-F1/covid-19/compare/v2.0.0...v2.0.1) (2020-04-27)
+
 ## [2.0.0](https://github.com/ALT-F1/covid-19/compare/v1.2.7...v2.0.0) (2020-04-27)
 
 

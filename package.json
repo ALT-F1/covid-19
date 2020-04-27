@@ -2,8 +2,11 @@
     "name": "covid19distributionworldwide",
     "description": "ALT-F1 SPRL: Display charts about the geographic distribution of COVID-19 cases worldwide",
     "authors": "Abdelkrim Boujraf, ALT-F1 SPRL",
-    "keywords": ["covid-19", "dashboard"],
-    "version": "2.0.0",
+    "keywords": [
+        "covid-19",
+        "dashboard"
+    ],
+    "version": "2.0.1",
     "main": "build/html/index.html",
     "scripts": {
         "release": "standard-version",
