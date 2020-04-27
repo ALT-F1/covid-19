@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/ALT-F1/covid-19/compare/v1.2.7...v2.0.0) (2020-04-27)
+
+
+### Features
+
+* scatter containing several continents works! ([f88fa8d](https://github.com/ALT-F1/covid-19/commit/f88fa8ddab465a66b35b2cc6e9cf5c997e3b1649))
+
 ### [1.2.7](https://github.com/ALT-F1/covid-19/compare/v1.2.6...v1.2.7) (2020-04-27)
 
 
