@@ -52,7 +52,9 @@ class ECDC:
         self.df = self.extract_datasource()
         self.df = self.transform_add_columns(self.df)
         
-
+    def info(self):
+        logging.info(f"{'='*25} {inspect.currentframe().f_code.co_name}")
+        print(f"{self.df['continent'].unique()}")
     """
         extract transform and load the data from the country continent codes list
     """
@@ -79,6 +81,7 @@ class ECDC:
         logging.info(f"{'='*25} {inspect.currentframe().f_code.co_name}")
         countries =  df['countriesAndTerritories'].unique()
         print(f"uniques countries : {len(countries)}")
+        
         for country in countries:
             df_growth = df[
                 df["countriesAndTerritories"] == country].copy(deep=True)
@@ -93,8 +96,12 @@ class ECDC:
             df_growth['deaths_growth'] = df_growth['deaths_sum_to_date'].pct_change(
                 periods=periods, fill_method='pad')
             df = df.append(df_growth,ignore_index=True)
-        df = df.replace([np.inf, -np.inf], np.nan)
+        
+        # remove all lines containing infinities to 100 and "Not A Number" (NaN) 
+        # df = df.replace([np.inf, -np.inf], np.nan)
+        df = df.replace([np.inf, -np.inf], 100)
         df = df.dropna()
+        
         return df
     """
         load the data from the ECDC

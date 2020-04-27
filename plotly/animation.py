@@ -13,9 +13,10 @@ def build_df():
     return covid.data.ecdc()
 
 def plot_scatter(df, continent="Americas"):
+    print(f"before sort: {df.shape}")
     df = df.sort_values(by=["dateRep"], ascending=True)
-    df = df.replace([np.inf, -np.inf], np.nan)
     #df = df[(df['continent'] == continent)]
+    print(f"unique continents: {df['continent'].unique()}")
     return px.scatter(
         df,
         x="cases_sum_to_date", y="cases_growth",
