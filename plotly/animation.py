@@ -12,7 +12,12 @@ def build_df():
     covid = COVID()
     return covid.data.ecdc()
 
-def plot_scatter(df, continent="Americas"):
+def plot_scatter(df, continent="Americas",start_date="2020-03-01"):
+
+    mask = (df['dateRep'] > start_date)
+    df = df.loc[mask]
+
+
     print(f"before sort: {df.shape}")
     df = df.sort_values(by=["dateRep"], ascending=True)
     #df = df[(df['continent'] == continent)]
@@ -22,7 +27,7 @@ def plot_scatter(df, continent="Americas"):
         x="cases_sum_to_date", y="cases_growth",
         animation_frame="dateRep_str", animation_group="countriesAndTerritories",
         size="deaths_sum_to_date", color="continent", hover_name="countriesAndTerritories",
-        log_x=False, size_max=50,
+        log_x=True, size_max=50,
         range_x=[df['cases_sum_to_date'].min(), df['cases_sum_to_date'].max()],
         range_y=[df['cases_growth'].min(), df['cases_growth'].quantile(0.75)]
     )
